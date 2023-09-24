@@ -1,0 +1,16 @@
+/* Footer */
+.footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1.2px;
+}
+
+.footer a {
+  color: var(--attr-color);
+}
+
+.footer a:hover {
+  color: var(--attr-color);
+  font-weight: bold;
+}
