@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
 :root {
-  --attr-color: rgb(145, 169, 247);
+  /* Primaries */
+  --soft-cyan: rgb(165, 243, 235);
+  --strong-cyan: rgb(16, 213, 194);
+  --gray-red: rgb(254, 236, 231);
+  --light-red: rgb(255, 140, 102);
+  --pale-blue: rgb(189, 204, 255);
+  /* Neutrals */
+  --white: rgb(255, 255, 255);
+  --very-pale-blue: rgb(250, 251, 255);
+  --light-gray: rgb(234, 238, 251);
+  --gray: rgb(205, 215, 238);
+  --blue-gray: rgb(133, 143, 173);
+  --desat-blue: rgb(41, 51, 86);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+}
+
+ul {
+  list-style: none;
 }

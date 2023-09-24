@@ -1,3 +1,24 @@
+:root {
+  --slider-bar: var(--soft-cyan);
+  --slider-bkg: var(--strong-cyan);
+  --disc-bkg: var(--gray-red);
+  --disc-txt: var(--light-red);
+  --btn-txt: var(--pale-blue);
+
+  --card-bg: var(--white);
+  --main-bg: var(--very-pale-blue);
+  --empty-slider-bar: var(--light-gray);
+  --toggle-bg: var(--gray);
+  --text: var(--blue-gray);
+  --btn-bg: var(--desat-blue);
+  --attr-color: rgb(145, 169, 247);
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Manrope', sans-serif;
+}
+
 /* Footer */
 .footer {
   font-size: 13px;
