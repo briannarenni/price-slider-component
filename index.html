@@ -4,29 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pricing Component</title>
+  <title>Pricing Card</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/index.css">
-
 </head>
 
 <body>
+  <div class="wrapper flex">
 
-  Simple, traffic-based pricing
-  Sign-up for our 30-day trial. No credit card required.
+    <header class="banner flex">
+      <h1 class="banner-title">Simple, traffic-based pricing</h1>
+      <p class="banner-subtitle">Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
 
-  Pageviews
-  $ /month
+    <main class="card">
+      <div class="views-wrap"><span class="views">{NUMBER}</span> Pageviews</div>
+      <div class="price-wrap"><span class="price">${PRICE}</span> /month</div>
+      <div class="slider">{SLIDER}</div>
+      <div class="billing">Monthly Billing <span class="toggle">{TOGGLE}</span> Yearly Billing <span class="disc">25% discount</span></div>
 
-  Monthly Billing
-  Yearly Billing 25% discount
+      <ul class="checklist">
+        <li>Unlimited websites</li>
+        <li>100% data ownership</li>
+        <li>Email reports</li>
+      </ul>
 
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial
+      <button class="start-btn">Start my trial</button>
+    </main>
+  </div>
 
   <footer class="footer">
     <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
