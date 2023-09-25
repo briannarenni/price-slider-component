@@ -50,6 +50,7 @@ body {
 .card {
   max-width: 540px;
   height: 400px;
+  flex-direction: column;
   background-color: var(--card-bg);
   border-radius: 8px;
   box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
@@ -57,6 +58,7 @@ body {
 
 .checklist {
   list-style: circle outside var(--checkmark-icon);
+  font-size: 12px;
 }
 
 .checklist li {
@@ -67,6 +69,10 @@ body {
 .banner-title {
   font-size: 28px;
   color: var(--cte-bg);
+}
+
+.banner-subtitle {
+  font-size: 15px;
 }
 
 .views-wrap {

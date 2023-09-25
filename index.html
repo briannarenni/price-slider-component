@@ -18,19 +18,26 @@
       <p class="banner-subtitle">Sign-up for our 30-day trial. No credit card required.</p>
     </header>
 
-    <main class="card">
-      <div class="views-wrap"><span class="views">{NUMBER}</span> Pageviews</div>
-      <div class="price-wrap"><span class="price">${PRICE}</span> /month</div>
+    <main class="card flex">
+
+      <section class="numbers-wrap">
+        <div class="views-wrap"><span class="views">{NUMBER}</span> Pageviews</div>
+        <div class="price-wrap"><span class="price">${PRICE}</span> /month</div>
+      </section>
+
       <div class="slider">{SLIDER}</div>
+
       <div class="billing">Monthly Billing <span class="toggle">{TOGGLE}</span> Yearly Billing <span class="disc">25% discount</span></div>
 
-      <ul class="checklist">
-        <li>Unlimited websites</li>
-        <li>100% data ownership</li>
-        <li>Email reports</li>
-      </ul>
+      <section class="cta-wrap">
+        <ul class="checklist">
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <button class="start-btn">Start my trial</button>
+      </section>
 
-      <button class="start-btn">Start my trial</button>
     </main>
   </div>
 
