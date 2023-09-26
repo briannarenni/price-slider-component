@@ -1,0 +1,42 @@
+/* Toggle */
+
+/* Checklist */
+.checklist {
+  list-style: circle outside var(--checkmark-icon);
+  font-size: 12px;
+}
+
+.checklist li {
+  padding-left: 10px;
+}
+
+/*CTA  Button */
+
+/* Slider */
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  flex-grow: 1;
+  height: 8px;
+  border-radius: 5px;
+  background-color: var(--slider);
+  outline: none;
+  appearance: none;
+
+}
+
+.slider-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: -12px;
+}
+
+.slider-icon img {
+  width: 100%;
+  height: auto;
+}
