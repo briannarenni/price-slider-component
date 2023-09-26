@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/components.css">
 </head>
 
 <body>
@@ -20,16 +21,19 @@
 
     <main class="card flex">
 
-      <section class="numbers-wrap">
+      <section class="numbers-wrap flex">
         <div class="views-wrap"><span class="views">{NUMBER}</span> Pageviews</div>
         <div class="price-wrap"><span class="price">${PRICE}</span> /month</div>
       </section>
 
-      <div class="slider">{SLIDER}</div>
+      <!-- TODO: SLIDER GOES HERE -->
+      <div class="slider-container">
+        <input type="range" name="range" class="slider" id="slider-bar" />
+      </div>
 
-      <div class="billing">Monthly Billing <span class="toggle">{TOGGLE}</span> Yearly Billing <span class="disc">25% discount</span></div>
+      <div class="billing-wrap">Monthly Billing <span class="toggle">{TOGGLE}</span> Yearly Billing <span class="disc">25% discount</span></div>
 
-      <section class="cta-wrap">
+      <section class="cta-wrap flex">
         <ul class="checklist">
           <li>Unlimited websites</li>
           <li>100% data ownership</li>
