@@ -50,9 +50,9 @@ body {
 
 .card {
   width: 40%;
-  height: 400px;
   flex-direction: column;
-  padding: 2rem;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
   background-color: var(--card-bg);
   border-radius: 8px;
   box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
@@ -81,6 +81,16 @@ body {
   justify-content: space-between;
   border-top: 1px solid var(--empty-slider);
   padding: 1rem;
+}
+
+/* Checklist */
+.checklist {
+  list-style: circle outside var(--checkmark-icon);
+  font-size: 12px;
+}
+
+.checklist li {
+  padding-left: 10px;
 }
 
 /* TODO: Text Styles */
