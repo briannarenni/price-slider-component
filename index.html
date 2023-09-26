@@ -31,7 +31,15 @@
         <input type="range" name="range" class="slider" id="slider-bar" />
       </div>
 
-      <div class="billing-wrap">Monthly Billing <span class="toggle">{TOGGLE}</span> Yearly Billing <span class="disc">25% discount</span></div>
+      <div class="billing-wrap flex">Monthly Billing
+        <!-- TODO: SLIDER GOES HERE -->
+        <span class="toggle"><label class="switch">
+            <input type="checkbox" class="toggle-input">
+            <span class="toggle-slide round"></span>
+          </label>
+        </span>
+        Yearly Billing <span class="disc">25% discount</span>
+      </div>
 
       <section class="cta-wrap flex">
         <ul class="checklist">

@@ -58,6 +58,7 @@ body {
   box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
 }
 
+/* TODO: Even out Padding */
 /* Wrappers */
 .numbers-wrap {
   justify-content: space-between;
@@ -75,15 +76,17 @@ body {
   color: var(--cte-bg);
 }
 
-.billing-wrap {}
+.billing-wrap {
+  justify-content: flex-end;
+}
 
+/*CTA Content */
 .cta-wrap {
   justify-content: space-between;
   border-top: 1px solid var(--empty-slider);
   padding: 1rem;
 }
 
-/* Checklist */
 .checklist {
   list-style: circle outside var(--checkmark-icon);
   font-size: 12px;
