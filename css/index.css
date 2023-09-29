@@ -7,11 +7,11 @@
   --disc-bg: var(--gray-red);
   --cta-bg: var(--desat-blue);
 
+  --slider: var(--soft-cyan);
+  --empty-slider: var(--light-gray);
   --text: var(--blue-gray);
   --disc-text: var(--light-red);
   --btn-txt: var(--pale-blue);
-  --slider: var(--soft-cyan);
-  --empty-slider: var(--light-gray);
   --attr-color: rgb(145, 169, 247);
 
   --page-bg-img: url('/images/bg-pattern.svg');
@@ -73,11 +73,6 @@ body {
   letter-spacing: 2px;
 }
 
-.price-wrap {
-  font-size: 16px;
-  color: var(--cta-bg);
-}
-
 .billing-wrap {
   justify-content: flex-end;
   align-items: center;
@@ -132,6 +127,11 @@ body {
 .price {
   font-size: 28px;
   font-weight: 800;
+  color: var(--cta-bg);
+}
+
+.price-wrap {
+  font-size: 14px;
 }
 
 .billing-disc {
@@ -139,8 +139,8 @@ body {
   background-color: var(--disc-bg);
   font-size: 10px;
   font-weight: 600;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 15px;
+  padding: 5px 8px;
 }
 
 /* Footer */

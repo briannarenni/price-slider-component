@@ -4,10 +4,10 @@
   /* Primaries */
   --soft-cyan: rgb(165, 243, 235);
   --strong-cyan: rgb(16, 213, 194);
+  --dark-cyan: rgb(36, 174, 161);
   --gray-red: rgb(254, 236, 231);
   --light-red: rgb(255, 140, 102);
   --pale-blue: rgb(189, 204, 255);
-  --dark-cyan: rgb(36, 174, 161);
   /* Neutrals */
   --white: rgb(255, 255, 255);
   --very-pale-blue: rgb(250, 251, 255);

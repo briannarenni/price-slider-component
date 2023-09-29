@@ -22,20 +22,16 @@
     <main class="card flex">
 
       <section class="numbers-wrap flex">
-        <div class="views-wrap"><span class="views">{NUMBER}</span> Pageviews</div>
-        <div class="price-wrap"><span class="price">${PRICE}</span> /month</div>
+        <div class="views-wrap"><span class="views"></span> Pageviews</div>
+        <div class="price-wrap"><span class="price"></span> /month</div>
       </section>
 
-      <!-- TODO: SLIDER GOES HERE -->
-      <div class="slider-wrap">
-        <input type="range" name="range" class="slider" id="slider-bar" />
-      </div>
+      <input type="range" name="range" class="slider" id="slider-bar" min="0" max="4" value="2" step="1" />
 
       <div class="billing-wrap flex">
         Monthly Billing
-        <!-- TODO: TOGGLE GOES HERE -->
         <span class="toggle-wrap"><label class="switch">
-            <input type="checkbox" class="toggle-input">
+            <input type="checkbox" class="toggle-input" id="toggle-box">
             <span class="toggle-slide round"></span>
           </label>
         </span>
@@ -58,8 +54,7 @@
     <p>Brianna Renni | <a href="https://github.com/briannarenni/">Github</a></p>
   </footer>
 
-  <script src="js/toggle.js"></script>
-  <script src="js/slider.js"></script>
+  <script src="js/components.js"></script>
 </body>
 
 </html>
