@@ -4,7 +4,7 @@
   --slider-bg: var(--strong-cyan);
   --toggle-bg: var(--gray);
   --disc-bg: var(--gray-red);
-  --cte-bg: var(--desat-blue);
+  --cta-bg: var(--desat-blue);
 
   --text: var(--blue-gray);
   --disc-txt: var(--light-red);
@@ -49,10 +49,10 @@ body {
 }
 
 .card {
-  width: 40%;
+  width: 35%;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
   background-color: var(--card-bg);
   border-radius: 8px;
   box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
@@ -74,7 +74,7 @@ body {
 
 .price-wrap {
   font-size: 16px;
-  color: var(--cte-bg);
+  color: var(--cta-bg);
 }
 
 .billing-wrap {
@@ -82,22 +82,40 @@ body {
   gap: 15px;
   margin: 0px 10px;
   padding: 10px;
+  font-size: 12px;
 }
 
 /*CTA Content */
 .cta-wrap {
+  width: 100%;
   justify-content: space-between;
   border-top: 1px solid var(--empty-slider);
   padding: 15px;
 }
 
 .checklist {
+  width: 50%;
+  flex-direction: column;
+  gap: 10px;
   list-style: circle outside var(--checkmark-icon);
   font-size: 12px;
+  padding-left: 10px;
 }
 
 .checklist li {
   padding-left: 10px;
+}
+
+.cta-btn {
+  width: 50%;
+  height: fit-content;
+  align-self: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--btn-txt);
+  background-color: var(--cta-bg);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 /* TODO: Text Styles */
