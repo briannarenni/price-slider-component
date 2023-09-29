@@ -2,6 +2,7 @@
   --main-bg: var(--very-pale-blue);
   --card-bg: var(--white);
   --slider-bg: var(--strong-cyan);
+  --slider-bg-active: var(--dark-cyan);
   --toggle-bg: var(--gray);
   --disc-bg: var(--gray-red);
   --cta-bg: var(--desat-blue);

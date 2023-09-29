@@ -76,3 +76,19 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.slider::-moz-range-thumb:hover {
+  cursor: pointer;
+}
+
+.slider::-ms-thumb:hover {
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb:active {
+  background-color: var(--slider-bg-active);
+}
+
+.slider::-ms-thumb:active {
+  background-color: var(--slider-bg-active);
+}
