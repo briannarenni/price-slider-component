@@ -105,15 +105,20 @@ body {
 }
 
 .cta-btn {
-  width: 50%;
+  width: 45%;
   height: fit-content;
   align-self: center;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--btn-txt);
   background-color: var(--cta-bg);
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .banner-title {
