@@ -24,6 +24,7 @@ body {
   max-height: 100vh;
   font-size: 15px;
   font-family: 'Manrope', sans-serif;
+  letter-spacing: 1.1px;
   color: var(--text);
   background: var(--main-bg) var(--page-bg-img) no-repeat;
 }
@@ -104,20 +105,25 @@ body {
 }
 
 .cta-btn {
-  width: 50%;
+  width: 45%;
   height: fit-content;
   align-self: center;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--btn-txt);
   background-color: var(--cta-bg);
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .banner-title {
   font-size: 28px;
-  color: var(--cte-bg);
+  color: var(--cta-bg);
 }
 
 .banner-subtitle {
@@ -125,13 +131,9 @@ body {
 }
 
 .price {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 800;
   color: var(--cta-bg);
-}
-
-.price-wrap {
-  font-size: 14px;
 }
 
 .billing-disc {
@@ -143,6 +145,9 @@ body {
   padding: 5px 8px;
 }
 
+.billing-disc .short-text {
+  display: none;
+}
 /* Footer */
 .footer {
   font-size: 13px;

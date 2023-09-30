@@ -1,0 +1,66 @@
+@media screen and (max-width: 799px) {
+  .card {
+    min-width: 95%;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+
+  .banner {
+    width: 90%;
+    align-items: center;
+  }
+
+  .banner-title {
+    font-size: 20px;
+  }
+
+  .banner-subtitle {
+    font-size: 13px;
+    width: 60%;
+  }
+
+  .views-wrap {
+    font-size: 12px;
+  }
+
+  .price-wrap {
+    font-size: 14px;
+  }
+
+  .billing-wrap {
+    gap: 5px;
+    padding: 0;
+    margin: 20px 5px;
+  }
+
+  .billing-disc .full-text {
+    display: none;
+  }
+
+  .billing-disc .short-text {
+    display: inline;
+  }
+
+  .cta-wrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .cta-list {
+    width: 80%;
+  }
+
+  .cta-list li {
+    padding-left: 0;
+  }
+
+  .cta-btn {
+    width: 80%;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+}
