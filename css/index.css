@@ -24,6 +24,7 @@ body {
   max-height: 100vh;
   font-size: 15px;
   font-family: 'Manrope', sans-serif;
+  letter-spacing: 1.1px;
   color: var(--text);
   background: var(--main-bg) var(--page-bg-img) no-repeat;
 }
@@ -125,13 +126,9 @@ body {
 }
 
 .price {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 800;
   color: var(--cta-bg);
-}
-
-.price-wrap {
-  font-size: 14px;
 }
 
 .billing-disc {
