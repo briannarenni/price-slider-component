@@ -1,21 +1,45 @@
-@media screen and (max-width: 799px) {
+@media screen and (min-width: 750px) {
   .card {
-    min-width: 95%;
+    max-width: 65%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .card {
+    min-width: 90%;
+    gap: 1rem;
     padding: 1.5rem 1.5rem 1rem 1.5rem;
   }
 
+  .billing-disc .full-text {
+    display: none;
+  }
+
+  .billing-disc .short-text {
+    display: inline;
+  }
+
+  .price-wrap.desktop {
+    display: none;
+  }
+
   .banner {
-    width: 90%;
+    width: 95%;
     align-items: center;
   }
 
   .banner-title {
-    font-size: 20px;
+    width: 100%;
+    font-size: 22px;
   }
 
   .banner-subtitle {
     font-size: 13px;
     width: 60%;
+  }
+
+  .numbers-wrap {
+    justify-content: center;
   }
 
   .views-wrap {
@@ -26,18 +50,18 @@
     font-size: 14px;
   }
 
+  .price-wrap.mobile {
+    display: block;
+    text-align: center;
+  }
+
   .billing-wrap {
+    justify-content: center;
     gap: 5px;
+    font-size: 11px;
     padding: 0;
-    margin: 20px 5px;
-  }
+    margin: 20px 0;
 
-  .billing-disc .full-text {
-    display: none;
-  }
-
-  .billing-disc .short-text {
-    display: inline;
   }
 
   .cta-wrap {
@@ -49,11 +73,7 @@
   }
 
   .cta-list {
-    width: 80%;
-  }
-
-  .cta-list li {
-    padding-left: 0;
+    width: fit-content;
   }
 
   .cta-btn {
