@@ -14,10 +14,10 @@
   --btn-txt: var(--pale-blue);
   --attr-color: rgb(145, 169, 247);
 
-  --page-bg-img: url('/images/bg-pattern.svg');
-  --checkmark-icon: url('/images/icon-check.svg');
-  --slider-icon: url('/images/icon-slider.svg');
-  --circle-img: url('/images/pattern-circles.svg');
+  --page-bg-img: url('../images/bg-pattern.svg');
+  --checkmark-icon: url('../images/icon-check.svg');
+  --slider-icon: url('../images/icon-slider.svg');
+  --circle-img: url('../images/pattern-circles.svg');
 }
 
 body {
